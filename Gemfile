@@ -10,6 +10,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootsnap'
 gem 'rails-controller-testing'
 
+gem 'execjs'
+gem 'therubyracer'
+
 group :development, :test do
   gem 'pry'
 end
